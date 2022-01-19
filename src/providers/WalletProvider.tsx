@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import { Web3ReactProvider } from '@web3-react/core'
-import { WalletModal } from '../components/WalletModal/WalletModal'
+import { WalletModal } from '../components/Blockchain/WalletModal/WalletModal'
 import { ConfigContextProvider } from '../contexts/configContext'
 import { WalletConfig } from '../config/types'
 import defaultConfig from '../config'
 import WalletModalContext from '../contexts/walletModalContext'
-import ModalManager from '../components/ModalManager/ModalManager'
+import ModalManager from '../components/Blockchain/ModalManager/ModalManager'
 
 interface WalletProviderProps {
   children: React.ReactNode

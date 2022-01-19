@@ -1,11 +1,11 @@
 import { useEffect } from 'react'
-import wallets from '../../config/walletsConfig'
-import useWallet from '../../hooks/useWallet'
-import { useWalletModal } from '../../hooks/useWalletModal'
-import { useConfig } from '../../contexts/configContext'
+import wallets from '../../../config/walletsConfig'
+import useWallet from '../../../hooks/useWallet'
+import { useWalletModal } from '../../../hooks/useWalletModal'
+import { useConfig } from '../../../contexts/configContext'
 import { useWeb3React } from '@web3-react/core'
-import style from './WalletModal.module.css'
-import { Connectors } from '../../config/types'
+import style from './WalletModal.module.scss'
+import { Connectors } from '../../../config/types'
 
 export const WalletModal: React.FC = () => {
   const { config } = useConfig()
