@@ -19,8 +19,8 @@
     "@types/sass": "^1.43.1",
     "@web3-react/abstract-connector": "^6.0.7",
     "next": "12.0.8",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
+    "react": "^16.8.6 || ^17.0.0",
+    "react-dom": "^16.8.6 || ^17.0.0",
     "react-icons": "^4.3.1",
     "react-modal": "^3.14.3",
     "sass": "^1.49.0"
@@ -51,7 +51,6 @@
     "ethereum-multicall": "^2.9.0",
     "node-sass": "^6.0.1",
     "npm-run-all": "^4.1.5",
-    "postcss": "^8.3.9",
     "postcss-import": "^14.0.2",
     "postcss-loader": "^6.1.1",
     "react": "^17.0.2",

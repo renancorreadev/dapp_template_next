@@ -1,8 +1,9 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.scss'
 import { Header } from '../components/Header'
-
 import { Content } from '../components/Content'
+import logoCinza from '../assets/images/logocinza.png'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -24,7 +25,12 @@ export default function Home() {
         >
           Powered by{' '}
           <span className={styles.logo}>
-            <h2>skyxcripto</h2>
+            <Image
+              src={logoCinza}
+              width={400}
+              height={150}
+              alt="image footer"
+            />
           </span>
         </a>
       </footer>
